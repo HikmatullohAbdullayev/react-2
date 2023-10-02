@@ -1,2 +1,1 @@
-import { Test_components } from "./Test-component";
-export {Test_components}
+export * from "./Test-component"

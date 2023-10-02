@@ -1,7 +1,9 @@
-export const Test_components = () => {
+import React from "react";
+export const Test_components = ( {name, age} ) => {
   return (
     <div>
-      <h1 className="title">nma gaaaaaap</h1>
+    <p>{name}  {age}</p>
+      <h1 className="title">nma gaaaaaap test</h1>
     </div>
   );
 };
