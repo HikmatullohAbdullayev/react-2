@@ -1,9 +1,10 @@
 import React from "react";
-export const Test_components = ( {name, age} ) => {
+
+export const Test_components = ( {name, } ) => {
   return (
     <div>
-    <p>{name}  {age}</p>
-      <h1 className="title">nma gaaaaaap test</h1>
+    <h1>{name} </h1>
+      <h1 className="title">nma gap test</h1>
     </div>
   );
 };
